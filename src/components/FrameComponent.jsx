@@ -41,6 +41,7 @@ const FrameComponent = () => {
           <div className="absolute top-[17px] right-[20px]">
             <img
               className={`w-6 h-6 overflow-hidden shrink-0 transform rotate-${
+
                 selected ? "180" : "0"
               }`}
               alt="frame_7"
@@ -69,6 +70,7 @@ const FrameComponent = () => {
           <div className="absolute top-[17px] right-[20px]">
             <img
               className={`w-6 h-6 overflow-hidden shrink-0 transform rotate-${
+
                 selected1 ? "180" : "0"
               }`}
               alt="frame_7"
@@ -97,6 +99,7 @@ const FrameComponent = () => {
           <div className="absolute top-[17px] right-[20px]">
             <img
               className={`w-6 h-6 overflow-hidden shrink-0 transform rotate-${
+                
                 selected2 ? "180" : "0"
               }`}
               alt="frame_7"
